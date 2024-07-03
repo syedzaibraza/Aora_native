@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A2BFA7F2C330E3600D63AC3 /* AoraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2BFA7E2C330E3600D63AC3 /* AoraApp.swift */; };
+		0A2BFA812C330E3600D63AC3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2BFA802C330E3600D63AC3 /* ContentView.swift */; };
+		0A2BFA832C330E3900D63AC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A2BFA822C330E3900D63AC3 /* Assets.xcassets */; };
+		0A2BFA872C330E3900D63AC3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A2BFA862C330E3900D63AC3 /* Preview Assets.xcassets */; };
+		0A2BFA912C330E3900D63AC3 /* AoraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2BFA902C330E3900D63AC3 /* AoraTests.swift */; };
+		0A2BFA9B2C330E3900D63AC3 /* AoraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2BFA9A2C330E3900D63AC3 /* AoraUITests.swift */; };
+		0A2BFA9D2C330E3900D63AC3 /* AoraUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2BFA9C2C330E3900D63AC3 /* AoraUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A2BFA8D2C330E3900D63AC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A2BFA732C330E3600D63AC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A2BFA7A2C330E3600D63AC3;
+			remoteInfo = Aora;
+		};
+		0A2BFA972C330E3900D63AC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A2BFA732C330E3600D63AC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A2BFA7A2C330E3600D63AC3;
+			remoteInfo = Aora;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A2BFA7B2C330E3600D63AC3 /* Aora.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aora.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A2BFA7E2C330E3600D63AC3 /* AoraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AoraApp.swift; sourceTree = "<group>"; };
+		0A2BFA802C330E3600D63AC3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0A2BFA822C330E3900D63AC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0A2BFA842C330E3900D63AC3 /* Aora.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Aora.entitlements; sourceTree = "<group>"; };
+		0A2BFA862C330E3900D63AC3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0A2BFA8C2C330E3900D63AC3 /* AoraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AoraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A2BFA902C330E3900D63AC3 /* AoraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AoraTests.swift; sourceTree = "<group>"; };
+		0A2BFA962C330E3900D63AC3 /* AoraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AoraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A2BFA9A2C330E3900D63AC3 /* AoraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AoraUITests.swift; sourceTree = "<group>"; };
+		0A2BFA9C2C330E3900D63AC3 /* AoraUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AoraUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A2BFA782C330E3600D63AC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A2BFA892C330E3900D63AC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A2BFA932C330E3900D63AC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A2BFA722C330E3600D63AC3 = {
+			isa = PBXGroup;
+			children = (
+				0A2BFA7D2C330E3600D63AC3 /* Aora */,
+				0A2BFA8F2C330E3900D63AC3 /* AoraTests */,
+				0A2BFA992C330E3900D63AC3 /* AoraUITests */,
+				0A2BFA7C2C330E3600D63AC3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0A2BFA7C2C330E3600D63AC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A2BFA7B2C330E3600D63AC3 /* Aora.app */,
+				0A2BFA8C2C330E3900D63AC3 /* AoraTests.xctest */,
+				0A2BFA962C330E3900D63AC3 /* AoraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A2BFA7D2C330E3600D63AC3 /* Aora */ = {
+			isa = PBXGroup;
+			children = (
+				0A2BFA7E2C330E3600D63AC3 /* AoraApp.swift */,
+				0A2BFA802C330E3600D63AC3 /* ContentView.swift */,
+				0A2BFA822C330E3900D63AC3 /* Assets.xcassets */,
+				0A2BFA842C330E3900D63AC3 /* Aora.entitlements */,
+				0A2BFA852C330E3900D63AC3 /* Preview Content */,
+			);
+			path = Aora;
+			sourceTree = "<group>";
+		};
+		0A2BFA852C330E3900D63AC3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0A2BFA862C330E3900D63AC3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0A2BFA8F2C330E3900D63AC3 /* AoraTests */ = {
+			isa = PBXGroup;
+			children = (
+				0A2BFA902C330E3900D63AC3 /* AoraTests.swift */,
+			);
+			path = AoraTests;
+			sourceTree = "<group>";
+		};
+		0A2BFA992C330E3900D63AC3 /* AoraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0A2BFA9A2C330E3900D63AC3 /* AoraUITests.swift */,
+				0A2BFA9C2C330E3900D63AC3 /* AoraUITestsLaunchTests.swift */,
+			);
+			path = AoraUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A2BFA7A2C330E3600D63AC3 /* Aora */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A2BFAA02C330E3900D63AC3 /* Build configuration list for PBXNativeTarget "Aora" */;
+			buildPhases = (
+				0A2BFA772C330E3600D63AC3 /* Sources */,
+				0A2BFA782C330E3600D63AC3 /* Frameworks */,
+				0A2BFA792C330E3600D63AC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Aora;
+			productName = Aora;
+			productReference = 0A2BFA7B2C330E3600D63AC3 /* Aora.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0A2BFA8B2C330E3900D63AC3 /* AoraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A2BFAA32C330E3900D63AC3 /* Build configuration list for PBXNativeTarget "AoraTests" */;
+			buildPhases = (
+				0A2BFA882C330E3900D63AC3 /* Sources */,
+				0A2BFA892C330E3900D63AC3 /* Frameworks */,
+				0A2BFA8A2C330E3900D63AC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A2BFA8E2C330E3900D63AC3 /* PBXTargetDependency */,
+			);
+			name = AoraTests;
+			productName = AoraTests;
+			productReference = 0A2BFA8C2C330E3900D63AC3 /* AoraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0A2BFA952C330E3900D63AC3 /* AoraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A2BFAA62C330E3900D63AC3 /* Build configuration list for PBXNativeTarget "AoraUITests" */;
+			buildPhases = (
+				0A2BFA922C330E3900D63AC3 /* Sources */,
+				0A2BFA932C330E3900D63AC3 /* Frameworks */,
+				0A2BFA942C330E3900D63AC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A2BFA982C330E3900D63AC3 /* PBXTargetDependency */,
+			);
+			name = AoraUITests;
+			productName = AoraUITests;
+			productReference = 0A2BFA962C330E3900D63AC3 /* AoraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A2BFA732C330E3600D63AC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					0A2BFA7A2C330E3600D63AC3 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					0A2BFA8B2C330E3900D63AC3 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 0A2BFA7A2C330E3600D63AC3;
+					};
+					0A2BFA952C330E3900D63AC3 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 0A2BFA7A2C330E3600D63AC3;
+					};
+				};
+			};
+			buildConfigurationList = 0A2BFA762C330E3600D63AC3 /* Build configuration list for PBXProject "Aora" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0A2BFA722C330E3600D63AC3;
+			productRefGroup = 0A2BFA7C2C330E3600D63AC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A2BFA7A2C330E3600D63AC3 /* Aora */,
+				0A2BFA8B2C330E3900D63AC3 /* AoraTests */,
+				0A2BFA952C330E3900D63AC3 /* AoraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A2BFA792C330E3600D63AC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A2BFA872C330E3900D63AC3 /* Preview Assets.xcassets in Resources */,
+				0A2BFA832C330E3900D63AC3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A2BFA8A2C330E3900D63AC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A2BFA942C330E3900D63AC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A2BFA772C330E3600D63AC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A2BFA812C330E3600D63AC3 /* ContentView.swift in Sources */,
+				0A2BFA7F2C330E3600D63AC3 /* AoraApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A2BFA882C330E3900D63AC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A2BFA912C330E3900D63AC3 /* AoraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A2BFA922C330E3900D63AC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A2BFA9B2C330E3900D63AC3 /* AoraUITests.swift in Sources */,
+				0A2BFA9D2C330E3900D63AC3 /* AoraUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A2BFA8E2C330E3900D63AC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A2BFA7A2C330E3600D63AC3 /* Aora */;
+			targetProxy = 0A2BFA8D2C330E3900D63AC3 /* PBXContainerItemProxy */;
+		};
+		0A2BFA982C330E3900D63AC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A2BFA7A2C330E3600D63AC3 /* Aora */;
+			targetProxy = 0A2BFA972C330E3900D63AC3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0A2BFA9E2C330E3900D63AC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0A2BFA9F2C330E3900D63AC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		0A2BFAA12C330E3900D63AC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Aora/Aora.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Aora/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "The-Hexaa.Aora";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0A2BFAA22C330E3900D63AC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Aora/Aora.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Aora/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "The-Hexaa.Aora";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0A2BFAA42C330E3900D63AC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "The-Hexaa.AoraTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aora.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Aora";
+			};
+			name = Debug;
+		};
+		0A2BFAA52C330E3900D63AC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "The-Hexaa.AoraTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aora.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Aora";
+			};
+			name = Release;
+		};
+		0A2BFAA72C330E3900D63AC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "The-Hexaa.AoraUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Aora;
+			};
+			name = Debug;
+		};
+		0A2BFAA82C330E3900D63AC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "The-Hexaa.AoraUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Aora;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A2BFA762C330E3600D63AC3 /* Build configuration list for PBXProject "Aora" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A2BFA9E2C330E3900D63AC3 /* Debug */,
+				0A2BFA9F2C330E3900D63AC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A2BFAA02C330E3900D63AC3 /* Build configuration list for PBXNativeTarget "Aora" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A2BFAA12C330E3900D63AC3 /* Debug */,
+				0A2BFAA22C330E3900D63AC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A2BFAA32C330E3900D63AC3 /* Build configuration list for PBXNativeTarget "AoraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A2BFAA42C330E3900D63AC3 /* Debug */,
+				0A2BFAA52C330E3900D63AC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A2BFAA62C330E3900D63AC3 /* Build configuration list for PBXNativeTarget "AoraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A2BFAA72C330E3900D63AC3 /* Debug */,
+				0A2BFAA82C330E3900D63AC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A2BFA732C330E3600D63AC3 /* Project object */;
+}
