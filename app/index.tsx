@@ -1,15 +1,9 @@
-import {
-  SafeAreaView,
-  ScrollView,
-  Text,
-  TouchableOpacity,
-  View,
-} from "react-native";
-import { StatusBar } from "expo-status-bar";
+import { SafeAreaView, ScrollView, Text, View } from "react-native";
 import { images } from "../constants";
-import { Link, router } from "expo-router";
-import Button from "@/components/Button";
+import { router } from "expo-router";
+
 import { Image } from "expo-image";
+import { Button } from "@/components";
 
 const Home = () => {
   return (
@@ -22,7 +16,7 @@ const Home = () => {
         <View className="w-full px-4 items-center justify-center h-full">
           <Image
             alt="logoSmall"
-            source={images.logoSmall}
+            source={images.logo}
             className="w-full h-20"
             contentFit="contain"
           />
