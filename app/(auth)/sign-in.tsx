@@ -9,9 +9,8 @@ import {
 import React, { useState } from "react";
 import { Image } from "expo-image";
 import { images } from "@/constants";
-import Button from "@/components/Button";
 import { Link, router } from "expo-router";
-import FormField from "@/components/FormField";
+import { Button, FormField } from "@/components";
 
 const SignIn = () => {
   const [form, setForm] = useState({
@@ -25,7 +24,7 @@ const SignIn = () => {
           <Image
             className="w-full h-20 "
             contentFit="contain"
-            source={images.logoSmall}
+            source={images.logo}
           />
           <FormField
             title="Email"

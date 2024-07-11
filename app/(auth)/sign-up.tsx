@@ -9,9 +9,8 @@ import {
 import React, { useState } from "react";
 import { Image } from "expo-image";
 import { images } from "@/constants";
-import Button from "@/components/Button";
 import { Link, router } from "expo-router";
-import FormField from "@/components/FormField";
+import { Button, FormField } from "@/components";
 
 const SignUp = () => {
   const [form, setForm] = useState({
@@ -20,13 +19,13 @@ const SignUp = () => {
     password: "",
   });
   return (
-    <SafeAreaView className="bg-black h-full">
+    <SafeAreaView className="bg-primary h-full">
       <ScrollView>
         <View className="justify-center w-full min-h-[85vh] px-4 my-6">
           <Image
             className="w-full h-20 "
             contentFit="contain"
-            source={images.logoSmall}
+            source={images.logo}
           />
           <Text className="text-2xl font-semibold text-white mt-10 ">
             Sign Up
